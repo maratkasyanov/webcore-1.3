@@ -172,8 +172,14 @@ margin-top: 2px;
   white-space:nowrap;
 }
 .service-navigation{
-  overflow: hidden;
   margin-bottom: 3%;
+}
+.service-navigation::-webkit-scrollbar {
+  display: none;
+}
+.service-navigation{
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 .content__btn{
  margin-right: 2%;
@@ -455,3 +461,4 @@ line-height: 20px;
   justify-content: space-between;
   align-items: center;
 }
+.service-navigation
