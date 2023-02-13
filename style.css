@@ -16,6 +16,7 @@ dd {
 }
 body{
   background-color: #F8F8F8;
+  
 }
 @font-face {
   font-family: 'TT Lakes';
@@ -43,6 +44,11 @@ body{
     url('TTLakesCondensed-DemiBold.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
+    }
+
+    body{
+      background-color: #F8F8F8;
+      font-family:'TT Lakes Condensed Demi','TT Lakes Condensed ExtraBold','TT Lakes Condensed Regular';
     }
   .caption{
    font-family: 'TT Lakes Condensed Demi';
