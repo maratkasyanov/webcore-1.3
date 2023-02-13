@@ -18,7 +18,7 @@ body{
   background-color: #F8F8F8;
 }
 @font-face {
-  font-family: 'TT Lakes Condensed Regular';
+  font-family: 'TT Lakes';
   src: url('TTLakesCondensed-Regular.eot');
   src: url('TTLakesCondensed-Regular.eot?#iefix') format('embedded-opentype'),
   url('TTLakesCondensed-Regular.woff') format('woff'),
@@ -27,7 +27,7 @@ body{
   font-style: normal;
   }
 @font-face {
-  font-family: 'TT Lakes Condensed ExtraBold';
+  font-family: 'TT Lakes';
   src: url('TTLakesCondensed-ExtraBold.eot');
   src: url('TTLakesCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
   url('TTLakesCondensed-ExtraBold.woff') format('woff'),
@@ -36,7 +36,7 @@ body{
   font-style: normal;
   }
   @font-face {
-    font-family: 'TT Lakes Condensed Demi';
+    font-family: 'TT Lakes';
     src: url('TTLakesCondensed-DemiBold.eot');
     src: url('TTLakesCondensed-DemiBold.eot?#iefix') format('embedded-opentype'),
     url('TTLakesCondensed-DemiBold.woff') format('woff'),
