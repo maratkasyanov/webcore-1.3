@@ -19,7 +19,7 @@ body{
 }
 @font-face {
   font-family: 'TT Lakes Condensed Regular';
-  src: url('fonts/TTLakesCondensed-Regular.eot');
+  src: url('TTLakesCondensed-Regular.eot');
   src: url('TTLakesCondensed-Regular.eot?#iefix') format('embedded-opentype'),
   url('TTLakesCondensed-Regular.woff') format('woff'),
   url('TTLakesCondensed-Regular.ttf') format('truetype');
