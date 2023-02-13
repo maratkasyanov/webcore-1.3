@@ -51,9 +51,9 @@ body{
       font-family:'TT Lakes Condensed Demi','TT Lakes Condensed ExtraBold','TT Lakes Condensed Regular';
     }
   .caption{
-   font-family: 'TT Lakes Condensed Demi';
+       font-family: 'TT Lakes Condensed Demi';
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 font-size: 28px;
 line-height: 40px;
   }
