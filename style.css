@@ -14,10 +14,15 @@ dl,
 dd {
   margin: 0;
 }
+a{
+  text-decoration: none;
+  color: #1B1C21;
+}
 body{
   background-color: #F8F8F8;
   
 }
+
 @font-face {
   font-family: 'TT Lakes';
   src: url('fonts/TTLakesCondensed-Regular.eot');
