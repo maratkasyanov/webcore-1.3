@@ -99,10 +99,21 @@ border: none;
 
 .service-navigation__list li{
 display: inline-block;
-padding-left: 20px;
+
+}
+.service-navigation__link-elem{
+  display: inline-block;
+  padding-left: 20px;
 padding-right: 20px;
 padding-top: 10px;
 padding-bottom: 10px;
+font-family: TT Lakes;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.20000000298023224px;
+color: #7E7E82;
+text-align: center;
 }
 .nav-menu__burger{
   display: flex;
@@ -185,10 +196,16 @@ background-color: #FF3E79;
 
 .service-navigation__list{
   white-space:nowrap;
+
+}
+.read-more{
+
 }
 .service-navigation__list{
   padding-left: 2%;
   padding-bottom: 2%;
+  padding-top: 1%;
+  gap: 10px;
 }
 .service-navigation__list::-webkit-scrollbar {
   display: none;
@@ -196,6 +213,7 @@ background-color: #FF3E79;
 .service-navigation__list{
   -ms-overflow-style: none; 
   scrollbar-width: none; 
+
 }
 .content__btn{
  margin-right: 2%;
@@ -203,20 +221,7 @@ background-color: #FF3E79;
 .service-navigation__link{
   flex-shrink: 1;
   margin-right: 5px;
-
-  font-family: TT Lakes;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: -0.20000000298023224px;
-text-align: left;
-color: #7E7E82;
-text-align: center;
 background-color: #F8F8F8;
-border: none;
-margin-top: 2%;
-padding-top: 5px;
-padding-bottom: 5px;
 border: 2px solid#F8F8F8;
 }
 .service-navigation__link:hover{
@@ -247,10 +252,8 @@ border: 2px solid#F8F8F8;
   background-color: #41F6D7;
 }
 .read-more{
-  display: flex;
-  flex-direction: row;
-  margin-top: 2%;
-  margin-bottom: 2%;
+border:none;
+background-color: #F8F8F8;
 }
 
 @media (max-width:380px) {
@@ -284,7 +287,16 @@ border: 2px solid#F8F8F8;
 .repair-requests{
   margin-top: 3%;
 }
+
+.service-navigation__link-feedback{
+  flex-basis: 100%;
+}
 @media (min-width: 1120px) {
+  .service-navigation__list{
+    width: 1134px;
+    flex-wrap: wrap;
+    padding-left: 4.8%;
+  }
   .reviews__txt{
     display: inline;
     margin-left: 3%;
@@ -302,8 +314,9 @@ color: #7E7E82;
   .nav-menu__feedback-status{
     display: flex;
 
-    margin-left: 65%;
-    margin-bottom: -66px;
+    position: absolute;
+    top: 6.49%;
+    left: 63%;
   }
   .button-and-txt{
     display: flex;
@@ -320,9 +333,8 @@ color: #7E7E82;
     
   }
   .service-navigation__list{
-      width: 1050px;
+
       flex-wrap: wrap;
-    padding-left: 4.8%;
  
   }
   .button-and-txt__application {
@@ -417,7 +429,6 @@ display: flex;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -2%;
 }
 .reviews__txt{
   display: none;
@@ -440,6 +451,10 @@ display: flex;
   .sequel-description{
     height: 160px;
   }
+}
+.sequel-description{
+  overflow: hidden;
+
 }
 @media (min-width: 1120px) {
 
@@ -472,14 +487,13 @@ color:#1B1C21;
   display: none;
 }
 }
-.sequel-description{
+.sequel-description__txt{
 color:#1B1C21;
 font-family: 'TT Lakes';
 font-style: normal;
 font-weight: 400;
 font-size: 17px;
 line-height: 20px;
-overflow: hidden;
 }
 @media (max-width: 768px) {
   .nav-menu__feedback-status{
