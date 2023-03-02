@@ -123,7 +123,7 @@ text-align: center;
   cursor: pointer;
   flex-shrink: 0;
 }
-.burger__elem1{
+.nav-menu__burger-elem1{
   border-bottom: 2px solid;
   width: 60%;
   margin-bottom: 5px;
@@ -131,7 +131,7 @@ text-align: center;
   color: #FFFFFF;
   border-radius: 1px;
 }
-.burger__elem2{
+.nav-menu__burger-elem2{
   border-bottom: 2px solid;
   width: 50%;
   margin-bottom: 5px;
@@ -139,7 +139,7 @@ text-align: center;
   color: #FFFFFF;
   border-radius: 1px;
 }
-.burger__elem3{
+.nav-menu__burger-elem3{
   border-bottom: 2px solid;
   width: 60%;
   color: #FFFFFF;
@@ -198,9 +198,6 @@ background-color: #FF3E79;
   white-space:nowrap;
 
 }
-.read-more{
-
-}
 .service-navigation__list{
   padding-left: 2%;
   padding-bottom: 2%;
@@ -238,11 +235,24 @@ border: 2px solid#F8F8F8;
     background-color: #FF3E79;
     text-align: center;
     display: none;
+    
 }
-.btn-nav__img
-{
-  margin-top: 3px;
+.frst{
+background-image: url(img/call.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
 }
+.second{
+  background-image: url(img/message.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+.third{
+  background-image: url(img/contact.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+
 .caption__txt::before{
   content: "";
   display: inline;
@@ -433,9 +443,7 @@ display: flex;
 .reviews__txt{
   display: none;
 }
-.service-navigation__list li{
 
-}
 @media (max-width: 768px) {
   .sequel-description{
     height: 81px;
