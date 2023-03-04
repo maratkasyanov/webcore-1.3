@@ -185,7 +185,6 @@ background-color: #FF3E79;
   margin-top: 9px;
 
 }
-
 .service-navigation__list{
   display: flex;
   flex-direction: row;
@@ -238,17 +237,17 @@ border: 2px solid#F8F8F8;
     display: none;
     
 }
-.frst{
+.nav-menu__btn-nav{
 background-image: url(img/call.svg);
     background-repeat: no-repeat, repeat;
     background-position: center;
 }
-.second{
+.nav-menu__btn-nav__second{
   background-image: url(img/message.svg);
     background-repeat: no-repeat, repeat;
     background-position: center;
 }
-.third{
+.nav-menu__btn-nav__third{
   background-image: url(img/contact.svg);
     background-repeat: no-repeat, repeat;
     background-position: center;
@@ -302,12 +301,12 @@ background-color: #F8F8F8;
 .service-navigation__link-feedback{
   flex-basis: 100%;
 }
-.button-and-txt__btn-repair{
+.button-and-txt__btn-repair__frst{
   background-image: url(img/realrepair.svg);
   background-repeat: no-repeat, repeat;
   background-position: center;
 }
-.sec{
+.button-and-txt__btn-repair__sec{
   background-image: url(img/searchqq.svg);
   background-repeat: no-repeat, repeat;
   background-position: center;
