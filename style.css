@@ -56,6 +56,7 @@ body{
       font-family:'TT Lakes Condensed Regular','TT Lakes Condensed ExtraBold','TT Lakes Condensed Regular','TT Lakes Condensed Demi';
     }
 
+
 .nav-menu__burger-logo,
 .nav-menu__feedback-status{
   margin: 1% 2%;
@@ -301,12 +302,23 @@ background-color: #F8F8F8;
 .service-navigation__link-feedback{
   flex-basis: 100%;
 }
+.button-and-txt__btn-repair{
+  background-image: url(img/realrepair.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+}
+.sec{
+  background-image: url(img/searchqq.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+}
 @media (min-width: 1120px) {
   .service-navigation__list{
     width: 1134px;
     flex-wrap: wrap;
     padding-left: 4.8%;
   }
+
   .reviews__txt{
     display: inline;
     margin-left: 3%;
